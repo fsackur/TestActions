@@ -90,7 +90,7 @@ Describe Read-DependencyFile {
                 $Output | Should -BeNullOrEmpty
             }
 
-            $Script:FooErrorMessage = "Cannot find path '$PWD\foo' because it does not exist."
+            $Script:FooErrorMessage = "Cannot find path '$(Split-Path $PWD)\*\foo' because it does not exist."
 
             It "Errors on non-existent relative path" {
 
