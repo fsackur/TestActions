@@ -1,0 +1,6 @@
+# for testing
+ModulePath
+OutputPath
+
+# But we need the test data
+!Tests/Data/**
