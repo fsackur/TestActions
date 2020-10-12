@@ -1,6 +1,6 @@
 @{
     Description       = 'Like a self-extracting zip, but in a .ps1 script!'
-    ModuleToProcess   = 'CompressDependency.psm1'
+    ModuleToProcess   = 'TestActions.psm1'
     ModuleVersion     = '0.1.0'
     GUID              = 'ecdcdd30-fc42-4306-8b6c-f657e680acdc'
 
