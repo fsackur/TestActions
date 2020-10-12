@@ -41,7 +41,7 @@ Describe Write-DependencyFile {
             }
 
 
-            $TestData | Write-DependencyFile -OutputFolder ModulePath
+            $TestData | Write-DependencyFile -OutputFolder $ModulePath
 
             $Script:ExpectedFiles = Get-ChildItem (Join-Path $TestDataFolder ModulePath) -Recurse
             $Script:WrittenFiles  = Get-ChildItem $ModulePath -Recurse
